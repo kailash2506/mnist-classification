@@ -118,7 +118,8 @@ img_28_gray_inverted_scaled = img_28_gray_inverted.numpy()/255.0
 x_single_prediction = np.argmax(
     model.predict(img_28_gray_inverted_scaled.reshape(1,28,28,1)),
      axis=1)
-print(x_single_prediction)```
+print(x_single_prediction)
+```
 
 
 ## OUTPUT
